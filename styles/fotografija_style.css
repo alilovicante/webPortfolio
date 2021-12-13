@@ -1,0 +1,43 @@
+body{
+    background-image: url("../images/home3.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.galerija{
+    margin: 100px 100px;
+    display: flexbox;
+    text-align: center;
+}
+.galerija img{
+    transition: 0.2s;
+    padding: 30px;
+    width: 500px;
+}
+.galerija img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.1);
+}
+header{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: rgb(126, 81, 23);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin-right: 35px;
+}
+header a:hover{
+    background-color: grey;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(126, 81, 23);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -50px;
+    font-size: 3em;
+}

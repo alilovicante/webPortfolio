@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25em;
+    background-image: url("../images/home3.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+h1{
+    margin-left: 1.4em;
+    margin-top: -1em;
+    text-align: center;
+    color:rgb(116, 73, 17)
+}
+nav{
+    text-align: center;
+    margin-top: 2em;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: rgb(126, 81, 23);
+    font-weight: 900;
+}
+a:hover{
+    background-color: grey;
+}
