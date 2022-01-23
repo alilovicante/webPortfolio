@@ -1,0 +1,49 @@
+body{
+    background-image: url("../images/home3.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+body::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+.galerija{
+    margin: 100px 100px;
+    display: flexbox;
+}
+#lista{
+    padding: 0;
+}
+header{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: rgb(126, 81, 23);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin-right: 35px;
+}
+header a:hover{
+    background-color: grey;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(126, 81, 23);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -50px;
+    font-size: 3em;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+li{
+    margin-bottom: 40px;
+}
