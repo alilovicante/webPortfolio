@@ -1,18 +1,16 @@
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid rgb(0, 0, 0); /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    background-color: rgba(50, 71, 37, 0.438);
+    width: 50%; 
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 5px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    background-color: rgb(255, 255, 255);
 }
-  
-  /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: rgba(50, 71, 37, 0.438);
+    background-color: rgb(255, 255, 255);
     color: black;
     font-family: 'Courier New', Courier, monospace;
     padding: 12px 20px;
@@ -20,8 +18,6 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: black;
     color: wheat;
@@ -32,30 +28,19 @@ input[type=submit]:hover {
 #subject{
     height: 200px;
 }
-#kontakt{
-    height: 40px;
-}
-  
-  /* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #b99a5e;
-    padding: 20px;
-    margin-top: 20px;
-}
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/home3.jpeg");
+    background-image: url("../images/background3.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment:fixed;
 }
-.slika{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px;
-    border-radius: 8px;
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -50px;
+    font-size: 3em;
 }
 .heder{
     text-align: right;
@@ -64,8 +49,24 @@ body{
 }
 .heder a{
     text-decoration: none;
-    color: rgb(126, 81, 23);
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     margin-right: 35px;
+}
+#socials{
+    margin-top: 6px;
+    width: 50pt;
+    margin-bottom: 0;
+    text-align: end;
+}
+#socials:hover{
+    opacity: 80%;
+}
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 50px;
 }

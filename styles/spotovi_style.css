@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/home3.jpeg");
+    background-image: url("../images/background2.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment:fixed;
@@ -7,7 +7,7 @@ body{
 }
 body::-webkit-scrollbar{
     display: none;
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;  
     scrollbar-width: none;
 }
 .galerija{
@@ -24,7 +24,7 @@ header{
 }
 header a{
     text-decoration: none;
-    color: rgb(126, 81, 23);
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     margin-right: 35px;
@@ -35,7 +35,7 @@ header a:hover{
 }
 h1{
     text-align: center;
-    color: rgb(126, 81, 23);
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: -50px;
     font-size: 3em;
@@ -43,6 +43,7 @@ h1{
 ul{
     text-align: center;
     list-style: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 li{
     margin-bottom: 40px;
